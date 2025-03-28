@@ -86,7 +86,7 @@ DB_NAME=spatial_data
 ### 6. Running the Application
 
 ```bash
-python app.py
+uvicorn main:app --reload
 ```
 
 ## API Endpoints
